@@ -1,0 +1,53 @@
+EXERCÍCIOS
+
+1. Escreva um programa que leia 2 números inteiros e imprima o total da soma entre eles.
+   Dicas:
+     a) Para ler, utilize a função input. Por exemplo: nome = input('Digite seu nome: ')
+     b) Lembre-se das conversões entre string e integer.
+     c) Lembre-se dos operadores aritméticos.
+
+2. Escreva um programa que leia 2 strings e imprima se elas são iguais ou não.
+   Dicas:
+     a) Lembre-se dos operadores de comparação.
+
+3. Escreva um programa que leia 1 número inteiro e imprima se ele é par ou ímpar.
+   Dicas:
+     a) Lembre-se dos operadores aritméticos.
+
+4. Escreva um função que receba 1 string por argumento e retorne se ela é formada somente por letras minúsculas ou não.
+   Dicas:
+     a) O tipo str contém alguns métodos próprios (funções dentro do tipo). Veja:
+     	dir(str)
+        help(str.startswith)
+        help(str.isprintable)
+        help(str.replace)
+        import string; string.digits
+     b) A função deve retornar um valor booleano.
+
+5. Escreva uma função que receba uma data e retorne ela por extenso (28 de janeiro de 2016).
+   Dicas:
+     a) Utilize o módulo de datas. Exemplo: from datetime import date; hoje = date.today()
+     b) dir(hoje) lhe mostrará os métodos e propriedades do tipo date. Exemplo: hoje.year
+
+6. Escreva um programa que leia as notas obtidas por um aluno em 3 provas e utilize a fórmula "MA = (Nota1 + Nota2 x 2 + Nota3 x 3 ) / 6" para calcular sua média. O programa deve escrever as notas, a média calculada, o conceito, e se ele foi aprovado ou não, conforme a tabela abaixo:
+
+    ------------------------------------
+    Média           Conceito    Aprovado
+    ------------------------------------
+    9.0             A           SIM
+    7.5 e < 9.0     B           SIM
+    6.0 e < 7.5     C           SIM
+    4.0 e < 6.0     D           NÃO
+    < 4.0           E           NÃO
+    ------------------------------------
+
+   Dicas:
+     a) Qual o tipo usado para armazenar uma lista de valores?
+     b) Note que as notas são números decimais.
+     c) Lembre-se dos operadores de comparação e condicionais.
+
+7. Escreva um programa que escolha um número aleatório entre 1 e 20 e peça para o jogador adivinhá-lo. O jogador tem 5 chances de acertar o número escolhido. Para cada uma das chances, peça que o jogador digite um número, e se este for menor ou maior que o número escolhido pelo programa, informe-o. Não esqueça de mostrar o número de tentativas em caso de acerto, ou a alternativa correta após todas tentativas.
+   Dicas:
+     a) Para escolher um número aleatório, use: import random; numero = random.randint(1, 20)
+     b) Lembre-se dos loops (laços).
+     c) Lembre-se dos operadores de comparação.
