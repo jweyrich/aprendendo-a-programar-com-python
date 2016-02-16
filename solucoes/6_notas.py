@@ -28,6 +28,6 @@ elif mediaCalculada >= 7.5:
 elif mediaCalculada >= 6.0:
 	print('C - APROVADO')
 elif mediaCalculada >= 4.0:
-	print('D - APROVADO')
+	print('D - REPROVADO')
 else:
 	print('E - REPROVADO')
